@@ -5,6 +5,14 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "USB-C Paddle Card")
+    (rev "R1")
+    (company "1BitSquared")
+    (comment 1 "(C) 2020 1BitSquared <info@1bitsquared.com>")
+    (comment 2 "(C) 2020 Piotr Esden-Tempski <piotr@esden.net>")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -361,7 +369,7 @@
   (gr_line (start 29.3 34.5) (end 35.7 34.5) (layer "Edge.Cuts") (width 0.05) (tstamp e0742e4b-7596-46b4-8985-faea56666993))
   (gr_line (start 29.3 25.5) (end 35.7 25.5) (layer "Edge.Cuts") (width 0.05) (tstamp e72c3f8f-c2b2-432d-9145-9006d352eed3))
   (gr_arc (start 35.7 25.8) (end 36 25.8) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp f606959c-f86b-48e5-9f68-c329f1b40385))
-  (gr_text "USB-C  2.0\nPaddle Card\n1BitSquared" (at 34.3 30 90) (layer "B.SilkS") (tstamp 32733cfb-9d99-4484-90d5-d70aa40f2d2d)
+  (gr_text "USB-C  2.0\nPaddle Card\n1BitSquared\nCC-BY-SA" (at 34.25 30 90) (layer "B.SilkS") (tstamp 32733cfb-9d99-4484-90d5-d70aa40f2d2d)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
   )
   (gr_text "E" (at 32.0525 33.9 90) (layer "B.SilkS") (tstamp a9b9257b-216b-4a63-b5a1-b49b57d29809)

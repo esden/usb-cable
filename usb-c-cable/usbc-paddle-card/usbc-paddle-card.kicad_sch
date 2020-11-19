@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "USB-C Paddle Card")
+    (rev "R1")
+    (company "1BitSquared")
+    (comment 1 "(C) 2020 1BitSquared <info@1bitsquared.com>")
+    (comment 2 "(C) 2020 Piotr Esden-Tempski <piotr@esden.net>")
+    (comment 3 "License: CC-BY-SA 4.0")
+  )
+
   (lib_symbols
     (symbol "Connector:USB_C_Receptacle" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -10.16 29.21 0)
@@ -479,19 +488,19 @@
   (junction (at 104.14 59.69) (diameter 1.016) (color 0 0 0 0))
   (junction (at 104.14 64.77) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 101.6 110.49))
-  (no_connect (at 101.6 80.01))
-  (no_connect (at 101.6 115.57))
   (no_connect (at 101.6 102.87))
+  (no_connect (at 101.6 87.63))
+  (no_connect (at 101.6 74.93))
+  (no_connect (at 101.6 110.49))
+  (no_connect (at 101.6 92.71))
+  (no_connect (at 101.6 80.01))
   (no_connect (at 101.6 95.25))
   (no_connect (at 101.6 107.95))
-  (no_connect (at 101.6 67.31))
-  (no_connect (at 101.6 100.33))
   (no_connect (at 101.6 85.09))
-  (no_connect (at 101.6 74.93))
+  (no_connect (at 101.6 67.31))
+  (no_connect (at 101.6 115.57))
   (no_connect (at 101.6 118.11))
-  (no_connect (at 101.6 87.63))
-  (no_connect (at 101.6 92.71))
+  (no_connect (at 101.6 100.33))
 
   (wire (pts (xy 78.74 130.81) (xy 78.74 125.73))
     (stroke (width 0) (type solid) (color 0 0 0 0))
